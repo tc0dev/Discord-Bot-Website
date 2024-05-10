@@ -26,7 +26,12 @@ export default function Index() {
           Discord
               </a>
             </Link>
-  
+  <div className="py-10"></div>
+  <Link href={"https://top.gg/bot/774043716797071371/vote"}>
+  <a className={" px-6 justify-center gap-x-2 shadow-lg shadow-amber-600/20 rounded-xl py-4 font-medium bg-gradient-to-bl from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white " }>
+Vote MusicMaker</a>
+  </Link>
+        </div>
 
         <div style={{ zIndex: '-1' }} className="hidden xl:block undrag pointer-events-none opacity-10 -left-[10vw] absolute top-[8vw] h-[35vw] flex-shrink-0 grayscale rotate-[1deg]">
         <Image width="600" height="600" src="/img/gift-left.png"  />
@@ -42,8 +47,8 @@ export default function Index() {
           <div className="col-span-4">
             <p className="text-white text-4xl font-bold" dangerouslySetInnerHTML={{ __html:"MusicMaker" }} />
             <p className="text-white text-md font-medium text-gray-500/75" dangerouslySetInnerHTML={{ __html: "How about creating the best environment to relax yourself with your own emotions?" }}/>
-            <a href="https://discord.com/api/oauth2/authorize?client_id=774043716797071371&permissions=277028620608&scope=bot%20applications.commands" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
-              <i className="fab fa-discord mr-2" />Invite MusicMaker
+            <a href="https://discord.gg/juKbfPMrrst" className={"mt-10 flex items-center px-4 justify-center gap-x-2 shadow-lg shadow-amber-600/20 cursor-pointer rounded-xl py-4 font-medium bg-gradient-to-r from-amber-700 to-amber-500 hover:opacity-80 transition duration-200 text-white"}>
+              <i className="fab fa-discord mr-2" />Discord
             </a>
           </div>
 
@@ -52,14 +57,9 @@ export default function Index() {
               <div>
                 <div className="text-white">
                   <p className="text-xl font-semibold mt-5"><i className={`fa fa-cogs text-2xl text-amber-500`} /> Optimization</p>
-                  <p className="text-gray-500 line-clamp-4">With fast and customizable settings specific to your server, MusicMaker gives you a musical pleasure to the fullest.</p>
+                  <p className="text-gray-500 line-clamp-4">Sunucunuza özel hızlı ve özelleştirilebilir ayarlarla BX Development size doyasıya kolaylık keyfi yaşatıyor.</p>
                 </div>
               </div>
-              <div>
-                <div className="text-white">
-                  <p className="text-xl font-semibold mt-5"><i className={`fa fa-universal-access text-2xl text-amber-500`} /> Universal</p>
-                  <p className="text-gray-500 line-clamp-4">A bot that supports multi-platform music playback. (Spotify, Souncloud, YouTube) | (It is a bot that complies with all copyrights and licenses.)</p>
-                </div>
               </div>
               <div>
                 <div className="text-white">
